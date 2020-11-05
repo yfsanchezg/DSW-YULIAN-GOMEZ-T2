@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+
+header{
+    width: 100%;
+    background: #005883;
+}
+
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+   
+}
+.menu li{
+  
+    position: relative;  
+    text-align: center;
+    flex-grow: 1;
+
+}
+.menu li:hover{
+    background: #B3B3B3;
+}
+
+.menu li a{
+   
+    display: block;
+    padding: 15px 20x;
+    color:white;
+    text-decoration: none;
+}
+
+.menu > li{
+    float: left;
+    
+}
+
+.menu li ul{
+
+    display: none;
+    position: absolute;
+    padding: 12px 40px;
+    background: #F47920;
+    width: 78%; 
+  
+}
+ 
+
+
+.menu li:hover > ul{
+    display: block;
+    
+}
+
+
+.tabla{
+    width: 95%;
+    padding: 50px;
+    text-align: justify;
+} 
+.conceptos{
+    width: 90%;
+    padding: 50px;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.color_body{
+    background-color: ghostwhite;
+}
+
+footer{
+background-color: black;
+text-align: center;
+padding: 5px;
+height: 8%;
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tabla_img{
+    width: 20%;
+    padding: 65px;   
+} 
+
+
+.img{
+    padding: 5%;
+}
