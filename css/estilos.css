@@ -88,7 +88,11 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 65px;   
 } 
 
-
 .img{
     padding: 5%;
+}
+
+iframe{
+    width: 80%;
+    height: 90vh;
 }
